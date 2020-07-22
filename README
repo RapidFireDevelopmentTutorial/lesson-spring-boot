@@ -1,4 +1,4 @@
-**Live Lesson Spring Boot Application**
+**Live Lesson - Spring Boot Application**
 
 This application was but during a live session building a Spring Boot application from scratch.
 
@@ -13,5 +13,8 @@ Spring Initializr - https://start.spring.io/
 Insomnia - https://insomnia.rest/download/
 
 Mongo DB
-docker run -it -v /Users/kuben.thathiah/mongodata:/mongodata -p 27017:27017 --name mongodb -d mongo
+
+Create Folder on PC first /mongodata
+
+docker run -it -v /mongodata:/mongodata -p 27017:27017 --name mongodb -d mongo
 
